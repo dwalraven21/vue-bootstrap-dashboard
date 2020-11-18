@@ -5,7 +5,7 @@
                   containerClasses="px-4 container"
                   expand>
             <router-link slot="brand" class="navbar-brand" to="/">
-                <img src="img/brand/white.png"/>
+                <img src="img/brand/logo_white.png"/>
             </router-link>
 
             <template v-slot="{closeMenu}">
@@ -14,7 +14,7 @@
                     <div class="row">
                         <div class="col-6 collapse-brand">
                             <router-link to="/">
-                                <img src="img/brand/green.png">
+                                <img src="img/brand/imageengine_logo.png">
                             </router-link>
                         </div>
                         <div class="col-6 collapse-close">
@@ -58,7 +58,7 @@
             </template>
         </base-nav>
         <!-- Header -->
-        <div class="header bg-gradient-success py-7 py-lg-8">
+        <div class="header py-7 py-lg-8">
             <div class="container">
                 <div class="header-body text-center mb-7">
                     <div class="row justify-content-center">
@@ -88,8 +88,8 @@
                 <div class="row align-items-center justify-content-xl-between">
                     <div class="col-xl-6">
                         <div class="copyright text-center text-xl-left text-muted">
-                            &copy; {{year}} <a href="https://www.creative-tim.com" class="font-weight-bold ml-1"
-                                               target="_blank">Creative Tim</a>
+                            &copy; {{year}} <a href="https://imageengine.io/" class="font-weight-bold ml-1"
+                                               target="_blank">ImageEngine</a>
                         </div>
                     </div>
                     <div class="col-xl-6">

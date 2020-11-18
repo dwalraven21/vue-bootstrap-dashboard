@@ -43,10 +43,10 @@
                             <i class="ni ni-settings-gear-65"></i>
                             <span>Settings</span>
                         </router-link>
-                        <router-link to="/profile" class="dropdown-item">
+                        <!-- <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-calendar-grid-58"></i>
                             <span>Activity</span>
-                        </router-link>
+                        </router-link> -->
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-support-16"></i>
                             <span>Support</span>
@@ -87,11 +87,13 @@
                 <ul class="navbar-nav mb-md-3">
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="https://demos.creative-tim.com/vue-argon-dashboard/documentation">
+                           href="https://imageengine.io/docs/setup/overview"
+                           target="_blank"
+                           >
                             <i class="ni ni-spaceship"></i> Getting started
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link"
                            href="https://demos.creative-tim.com/vue-argon-dashboard/documentation/foundation/colors.html">
                             <i class="ni ni-palette"></i> Foundation
@@ -102,7 +104,7 @@
                            href="https://demos.creative-tim.com/vue-argon-dashboard/documentation/components/alerts.html">
                             <i class="ni ni-ui-04"></i> Components
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             </div>
@@ -119,7 +121,7 @@
     props: {
       logo: {
         type: String,
-        default: 'img/brand/green.png',
+        default: 'img/brand/imageengine_logo.png',
         description: 'Sidebar app logo'
       },
       autoClose: {
